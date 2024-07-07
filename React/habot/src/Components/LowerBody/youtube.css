@@ -1,0 +1,75 @@
+.card{
+    /* width: 100vw; */
+    height: 75vh;
+    margin-left:  7rem;
+    background-color: var(--blue);
+    color:white;
+}
+
+.image{
+width:46%;
+margin: 7rem 5rem;
+border-radius:0.5rem ;
+}
+.row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+.col{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.tab{
+margin-top: -5rem;
+margin-left: -10rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 2rem;
+margin-bottom: 2rem;
+}
+
+.ele1{
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1rem 4rem;
+    border: 0.5rem solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+    border-color: var(--red);
+}
+.ele{
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    border: 0.5rem solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: var(--blue);
+
+}
+.checkpoints{
+    font-weight: 100rem;
+}
+.pts{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+margin-bottom: 0.5rem;
+gap: 1rem;
+
+}
+
+.check{
+    padding:1rem;
+}

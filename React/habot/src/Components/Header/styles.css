@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.15rem 1rem;
+    box-sizing: border-box;
+    color: var(--black);
+    background-color: var(--white);
+}
+.logo{
+    padding-left: 2rem;
+}
+.habotlogo{
+    width:181px;
+    cursor: pointer;
+    /* height: 43px; */
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+    padding-right:2rem ;
+    /* margin-right: 1rem; */
+   
+}
+
+.login-btn{
+    /* justify-content: center; */
+    border: 2px solid;
+    border-radius: 5px;
+  padding:1rem 2rem;
+  font-weight: 700;
+  color: var(--green);
+  border-color: var(--green);
+cursor: pointer;
+}
+
+.down-logo{
+    gap: 1rem;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+p{
+    color: var(--grey);
+    cursor: pointer;
+
+}

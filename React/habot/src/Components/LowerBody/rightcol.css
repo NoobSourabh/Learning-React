@@ -1,0 +1,33 @@
+.right-col {
+    width: 50vw;
+}
+
+.flex-rows {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Corrected the property name from justify-items to justify-content */
+    flex-direction: row;
+    width: 70%;
+}
+
+.flex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Corrected the property name from justify-items to justify-content */
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -1.5rem;
+}
+
+.btns {
+    border: 1px solid;
+    background-color: var(--white);
+    border-color: var(--red);
+    color: var(--black);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex: 1; /* Make all buttons take up equal space */
+    text-align: center; /* Center text horizontally */
+    min-width: 120px; /* Optional: set a minimum width to prevent buttons from being too small */
+}

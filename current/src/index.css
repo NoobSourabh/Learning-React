@@ -1,0 +1,23 @@
+
+*{
+  box-sizing :content-box;
+  padding:0;
+  margin :0;
+  background-color: rgb(255, 255, 255)
+}
+
+div{
+  width: s100%;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+button{
+  padding: 15px 20px;
+  background: rgb(255, 101, 255);
+  color:white;
+  border :2px solid white;
+   
+}

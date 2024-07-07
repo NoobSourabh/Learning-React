@@ -1,0 +1,57 @@
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    height: 100vh;
+    width: 100vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    height: 40vh;
+    width: 40vw;
+    color: var(--black);
+    border-radius: 2rem;
+}
+.qr-card{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    color: var(--black);
+    border-radius:2rem ;
+}
+
+.input-card{
+    margin-top:5rem ;
+    border-radius: 1rem;
+    padding: 0.1rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+
+.input-box{
+/* width: 100%; */
+border:none;
+border-radius: 1rem;
+padding: 0.5rem;
+font-size: 1rem;
+    background-color: rgb(214, 214, 214);
+
+}
+
+.input-box:focus{
+    outline: none;
+}
+.search-icon{
+    margin-left: 0.5rem;
+  color: var(--black);
+  cursor: pointer;
+}

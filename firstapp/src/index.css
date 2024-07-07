@@ -1,0 +1,20 @@
+/* *{margin :0; padding: 0; box-sizing: border-box} */
+.heading{
+    color: blueviolet;
+    text-align: center;
+    text-transform:capitalize;
+    font-weight: bold;
+    margin:50px 0px
+}
+.img_div{
+    width: 200px;
+    margin:10px;
+}
+.img_div{
+    display: flex;
+}
+.img1{
+    width:70%;
+    height:70%;
+    margin:0px 10px;
+}
